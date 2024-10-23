@@ -1,116 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
-    <!-- <script src="js/script.js"></script> -->
-    <title>PorkHub - Recipes</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Hello, world!</title>
 </head>
 
-<body>
-    <header class="container">
-        <div class="top">
-
-            <nav>
-                <ul>
-                    <li>
-                        <strong>
-                            <img class="logo-img" src="images/ph-logo.png" alt="PorkHub logo">
-                        </strong>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <a href="/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about.html">About</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="container">
-        <div class="bottom">
-
-            <h1 class="header-text">Meat all you can!</h1>
-            <div class="grid">
-                <div>
-                    <article>
-                        <header><strong>Pork Adobo</strong></header>
-                        <img src="contents/img/adobo.jpg" alt="">
-                        <p>Considered by some as the pride of Filipino cuisine, Pork Adobo is definitely a favorite among many around the world. <a href="">See recipe</a></p>
-                        <footer>
-                            <div class="grid">
-                                <div  class="author">
-                                    by author
-                                </div>
-                                <div class="social">
-                                    <i class="fa-regular fa-comment"></i> <small>201</small>
-                                    <i class="fa-solid fa-heart"></i> <small>22</small>
-                                </div>
-
-                            </div>
-                        </footer>
-                    </article>
-                </div>
-                <div>
-                    <article>
-                        <header>Header</header>
-                        Body
-                        <footer>Footer</footer>
-                    </article>
-                </div>
-    
-                <div>
-                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Type to search">
-                    <!-- <zero-md src="contents/list.md"></zero-md> -->
-                    <ul id="myUL">
-                        <li><a href="recipe.html?file=adobo.md">Pork Adobo</a> <small>Tender pork simmered to perfection in a tangy soy-vinegar sauce</small></li>
-                        <li><a href="recipe.html?file=sisig.md">Pork Sisig</a> <small>Chopped, crispy pork served on a sizzling plate, seasoned with calamansi and chilies.</small></li>
+<body class="container">
+    <!-- <h1>Hello, world!</h1> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PorkHub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://dvbondoy.gitbhub.io/porkhub-fork/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dvbondoy.gitbhub.io/porkhub-fork/about.html">About</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text-center mb-4">Meat all you can!</h1>
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="contents/img/adobo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pork Adobo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a class="btn btn-primary" href="">Read more...</a>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    by author
+                                </div>
+                                <div class="col social">
+                                    <i class="fa-regular fa-comment"></i> <small>201</small>
+                                    <i class="fa-solid fa-heart"></i> <small>22</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="contents/img/adobo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pork Adobo</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a class="btn btn-primary" href="">Read more...</a>
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    by author
+                                </div>
+                                <div class="col social">
+                                    <i class="fa-regular fa-comment"></i> <small>201</small>
+                                    <i class="fa-solid fa-heart"></i> <small>22</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    search bar and recipe list here
+                </div>
+            </div>
         </div>
-
+        <!-- </div> -->
     </main>
     <footer class="container">
-        <div class="grid">
-            <div>
-                Left
-            </div>
-            <div>
-                Right
-            </div>
-        </div>
-        
+        footer here
     </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
 </body>
 
-<script>
-    function myFunction() {
-    // Declare variables
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById('myInput');
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName('li');
-
-    // Loop through all list items, and hide those who don't match the search query
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        li[i].style.display = "";
-        } else {
-        li[i].style.display = "none";
-        }
-    }
-    }
-</script>
 </html>

@@ -1,37 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Hello, world!</title>
 </head>
-<body>
-    <header class="container">
-        <div class="top">
-            <nav>
-                <ul>
-                    <li>
-                        <strong>
-                            <img class="logo-img" src="images/ph-logo.png" alt="PorkHub logo">
-                        </strong>
-                    </li>
-                </ul>
-                <!-- <img class="pork-head" src="images/pork-head.jpg" alt=""> -->
-                <ul>
-                    <li>
-                        <a href="/index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="/about.html">About</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+
+<body class="container">
+    <!-- <h1>Hello, world!</h1> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">PorkHub</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://dvbondoy.gitbhub.io/porkhub-fork/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dvbondoy.gitbhub.io/porkhub-fork/about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="container">
+    <main>
         <div class="bottom">
             <div class="about">
                 <h1>About PorkHub</h1>
@@ -40,59 +43,72 @@
                 <p>Join us as we explore traditional recipes alongside innovative creations that elevate pork to new heights. Committing to sustainability and supporting local farms, we ensure that every bite is delicious and ethically sourced.</p>
                 <p>Come hungry, and get ready to indulge in the ultimate pork experience at Porkhub!</p>
             </div>
-            <h1 class="who-h1">Who we are</h1>
-            <div class="grid who">
-                <div class="about-pic">
-                    <img src="/images/charles.jpg" alt="">
-                    <h2>Charles Gan</h2>
-                    <h5>CEO</h5>
+            <div>
+                
+                <h1 class="who-h1">Who we are</h1>
+                <div class="who row">
+                    <div class="about-pic col">
+                        <img src="images/charles.jpg" alt="charles">
+                        <h2>Charles Gan</h2>
+                        <h5>CEO</h5>
+                    </div>
+                    <div class="col">
+                        <p>I deeply love pork and appreciate its rich flavors and versatility in my meals. Despite my love for this delicious ingredient, I prioritize healthy living and making mindful choices in my diet. I creatively incorporate lean cuts of pork into balanced meals, often pairing them with fresh vegetables and whole grains, ensuring that my love for pork complements my commitment to a nutritious lifestyle. My approach celebrates the joy of cooking while focusing on health and well-being.</p>
+                    </div>
                 </div>
-                <div>
-                    <p>I deeply love pork and appreciate its rich flavors and versatility in my meals. Despite my love for this delicious ingredient, I prioritize healthy living and making mindful choices in my diet. I creatively incorporate lean cuts of pork into balanced meals, often pairing them with fresh vegetables and whole grains, ensuring that my love for pork complements my commitment to a nutritious lifestyle. My approach celebrates the joy of cooking while focusing on health and well-being.</p>
+                <hr>
+                <div class="row who">
+                    <div class="col about-pic">
+                        <img src="images/lawrence.jpeg" alt="lawrence">
+                        <h2>Lawrence Guirre</h2>
+                        <h5>CIO</h5>
+                    </div>
+                    <div class="col">
+                        <p>I’m excited to invite you to the tastiest corner of the internet! At Pork Hub, we’ve crafted a site that’s not just about recipes—it’s about creating an experience where you can discover the magic of pork in ways you’ve never imagined. Whether you’re a home cook or a seasoned pro, our platform offers an incredible variety of pork dishes from around the world, expertly curated to ensure that every meal you make is unforgettable.</p>
+                        <p>But we didn’t stop there! We’ve designed Pork Hub to be a one-stop resource for anyone who loves pork—offering step-by-step recipes, cooking tips, and tricks that’ll turn you into a pork master in no time. Our site is built for ease of use, letting you explore different flavors and techniques effortlessly. Whether you want to grill, roast, or try something completely new, Pork Hub is the place where your passion for great food meets endless possibilities. So why wait? Dive in, get inspired, and discover just how amazing pork can be.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="grid who">
-                <div class="about-pic">
-                    <img src="/images/lawrence.jpeg" alt="">
-                    <h2>Lawrence Guirre</h2>
-                    <h5>CIO</h5>
+                <hr>
+                <div class="row who">
+                    <div class="col about-pic">
+                        <img src="images/dioscoro.jpg" alt="dioscoro">
+                        <h2>Dioscoro Bondoy</h2>
+                        <h5>Frontend Developer</h5>
+                    </div>
+                    <div class="col">
+                        <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
                 </div>
-                <div>
-                    <p>I’m excited to invite you to the tastiest corner of the internet! At Pork Hub, we’ve crafted a site that’s not just about recipes—it’s about creating an experience where you can discover the magic of pork in ways you’ve never imagined. Whether you’re a home cook or a seasoned pro, our platform offers an incredible variety of pork dishes from around the world, expertly curated to ensure that every meal you make is unforgettable.</p>
-                    <p>But we didn’t stop there! We’ve designed Pork Hub to be a one-stop resource for anyone who loves pork—offering step-by-step recipes, cooking tips, and tricks that’ll turn you into a pork master in no time. Our site is built for ease of use, letting you explore different flavors and techniques effortlessly. Whether you want to grill, roast, or try something completely new, Pork Hub is the place where your passion for great food meets endless possibilities. So why wait? Dive in, get inspired, and discover just how amazing pork can be.</p>
-                </div>
-            </div>
-            <div class="grid who">
-                <div class="about-pic">
-                    <img src="images/dioscoro.jpg" alt="">
-                    <h2>Dioscoro Bondoy</h2>
-                    <h5>Frontend Developer</h5>
-                </div>
-                <div>
-                    <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                </div>
-            </div>
-            <div class="grid who">
-                <div class="about-pic">
-                    <img src="images/john.jpg" alt="">
-                    <h2>John Alova</h2>
-                    <h5>Backend Developer</h5>
-                </div>
-                <div>
-                    <p>Pork is a widely eaten meat in the worldnot just  because of its abundance in markets but also for its abundance in nutrients that our body needs. Pork is high in protein and contains a lot of minerals and vitamins. It is high in vitamin B6 which can enhance our immune system and also keep our blood sugar in normal ranges. </p>
-                    <p>Here in Porkhub, we offer you tons of various pork recipes that you can try at home. With tons of choices we have for you, you can really choose what suits your taste. </p>
-                    <p>You can also add the recipes you like to your favorites so that you can easily access them everytime you want to cook something with pork.</p>
-                    <p>Explore our website and discover  various pork recipes that you can try and enjoy with your families and friends.</p>
+                <hr>
+                <div class="row who">
+                    <div class="col about-pic">
+                        <img src="images/john.jpg" alt="john">
+                        <h2>John Alova</h2>
+                        <h5>Backend Developer</h5>
+                    </div>
+                    <div class="col">
+                        <p>Pork is a widely eaten meat in the worldnot just  because of its abundance in markets but also for its abundance in nutrients that our body needs. Pork is high in protein and contains a lot of minerals and vitamins. It is high in vitamin B6 which can enhance our immune system and also keep our blood sugar in normal ranges. </p>
+                        <p>Here in Porkhub, we offer you tons of various pork recipes that you can try at home. With tons of choices we have for you, you can really choose what suits your taste. </p>
+                        <p>You can also add the recipes you like to your favorites so that you can easily access them everytime you want to cook something with pork.</p>
+                        <p>Explore our website and discover  various pork recipes that you can try and enjoy with your families and friends.</p>
 
-Viva Mapua!
+    Viva Mapua!
+                    </div>
                 </div>
             </div>
         </div>
-        
     </main>
     <footer class="container">
-
+        footer here
     </footer>
-    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
 </body>
+
 </html>

@@ -2,7 +2,7 @@
 
 The only hub you need for all your pork recipes.
 
-https://dvbondoy.github.io/porkhub-recipes/
+https://dvbondoy.github.io/porkhub-fork/
 
 ## How to add new recipes
 1. create recipe under contents folder using markdown
