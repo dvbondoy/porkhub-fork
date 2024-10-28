@@ -22,7 +22,7 @@
     color: var(--c1);
 }
 
-article img{
+.article img{
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -167,3 +167,7 @@ nav ul li a:hover {
   width: 120px; /* Adjust logo size as needed */
 }
 
+.card img{
+  height: 300px;
+  /* width: 200px; */
+}
