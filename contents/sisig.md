@@ -1,6 +1,6 @@
 # Pork Sisig
 
-![sisig](image/sisig/1729220769675.png "Pork Sisig")
+![sisig](img/sisig.jpg)
 
 ## Description
 

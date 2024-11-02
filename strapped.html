@@ -78,7 +78,7 @@
                     </div>
                     <div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Type to search">
-                        <ul id="myUL">
+                        <ul id="recipeList">
                             <li><a href="recipe.html?file=adobo.md">Pork Adobo</a> <small>Tender pork simmered to perfection in a tangy soy-vinegar sauce</small></li>
                             <li><a href="recipe.html?file=sisig.md">Pork Sisig</a> <small>Chopped, crispy pork served on a sizzling plate, seasoned with calamansi and chilies.</small></li>
                         </ul>
@@ -105,7 +105,7 @@
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
+    ul = document.getElementById("recipeList");
     li = ul.getElementsByTagName('li');
 
     // Loop through all list items, and hide those who don't match the search query

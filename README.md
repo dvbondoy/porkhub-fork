@@ -6,4 +6,4 @@ https://dvbondoy.github.io/porkhub-fork/
 
 ## How to add new recipes
 1. create recipe under contents folder using markdown
-2. add new recipe in the list in index.html under #myUL
+2. add new recipe in the list in index.html under #recipeList
