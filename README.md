@@ -15,5 +15,10 @@ https://www.figma.com/design/b9Y11lO4pk5lqBW8uOeQDp/Porkhub?node-id=0-1&t=Re0RHC
 https://docs.google.com/document/d/1DDa1baG5jA5hIooLy_XcPfEX_ZOx0Vg31PRwm4U9KYU/edit?usp=sharing
 
 ## How to add new recipes
-1. create markdown file recipe under contents folder
-2. add the new recipe in the list inside index.html under #recipeList
+1. create markdown file recipe inside contents folder
+2. save new recipe image inside contents/img folder
+3. add the new recipe in the list inside index.html under #recipeList
+
+> Notes:
+> Create a copy of an existing markdown file and replace information with new recipe for uniformity
+> For markdown syntax refer to this cheatsheet: https://www.markdownguide.org/cheat-sheet/ 
